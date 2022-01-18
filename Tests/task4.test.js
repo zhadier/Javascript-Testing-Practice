@@ -1,20 +1,20 @@
 const capitalize = require('../Tasks/task4');
 
 test('Parameter should be of type string', () => {
-  //Arrange
+  // Arrange
   const str = 3;
-  //Act
-  //Assert
+  // Act
+  // Assert
   expect(() => {
     capitalize(str);
   }).toThrow();
 });
 
 test('First letter of input string capitalized', () => {
-  //Arrange
+  // Arrange
   const str = 'zeeshan haider';
-  //Act
+  // Act
   const capitalized = capitalize(str);
-  //Assert
+  // Assert
   expect(capitalized).toMatch('Zeeshan Haider');
 });

@@ -1,10 +1,10 @@
 const reverseString = require('../Tasks/task2');
 
 test('Given string must be reversed', () => {
-  //Arrange
+  // Arrange
   const str = 'Hello World';
-  //Act
+  // Act
   const chars = reverseString(str);
-  //Assert
+  // Assert
   expect(chars).toMatch('dlroW olleH');
 });

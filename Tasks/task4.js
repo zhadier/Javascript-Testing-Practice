@@ -6,6 +6,6 @@ const capitalize = (str) => {
   capitalized.forEach((element, index) => {
     capitalized[index] = element.charAt(0).toUpperCase() + element.slice(1);
   });
-  return capitalized.reduce((prev, next) => prev + ' ' + next);
+  return capitalized.reduce((prev, next) => `${prev} ${next}`);
 };
 module.exports = capitalize;
