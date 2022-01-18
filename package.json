@@ -1,0 +1,24 @@
+{
+  "name": "javascript-testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhadier/Javascript-Testing-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhadier/Javascript-Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/zhadier/Javascript-Testing-Practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
